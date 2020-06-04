@@ -11,7 +11,7 @@ from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 import base64
-import Containment_solver
+import containment_solver
 
 external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 
@@ -2153,7 +2153,7 @@ def update_graph(
     Q_FP,
     Q_FP_type,
 ):
-    solveFNM = Containment_solver.FNMsolver(
+    solveFNM = containment_solver.FNMsolver(
         architecture,
         containment,
         w_area,
