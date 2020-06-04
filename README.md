@@ -3,8 +3,8 @@ Flow Network Models for containment analysis in data center infrastructure
 
 Brief discription of the files:
 
-1. containment_solver.py - Back-end calculating functions
-2. containment_app.py - GUI connected with containment_solver.py
+1. `containment_solver.py` - Back-end calculating functions
+2. `containment_app.py` - GUI connected with containment_solver.py
 
 ## Running the Containment Analysis tool
 
