@@ -250,8 +250,8 @@ app.layout = html.Div(
                                     id="Q_c_type-id",
                                     value=1,
                                     options=[
-                                           {"label": "supply", "value": 1},
-                                           {"label": "return", "value": -1}
+                                        {"label": "supply", "value": 1},
+                                        {"label": "return", "value": -1},
                                     ],
                                     style={
                                         "margin-right": "10px",
@@ -292,8 +292,8 @@ app.layout = html.Div(
                                     id="Q_room_type-id",
                                     value=-1,
                                     options=[
-                                           {"label": "supply", "value": 1},
-                                           {"label": "return", "value": -1}
+                                        {"label": "supply", "value": 1},
+                                        {"label": "return", "value": -1},
                                     ],
                                     style={
                                         "margin-right": "10px",
@@ -334,8 +334,8 @@ app.layout = html.Div(
                                     id="Q_FP_type-id",
                                     value=1,
                                     options=[
-                                           {"label": "supply", "value": 1},
-                                           {"label": "return", "value": -1}
+                                        {"label": "supply", "value": 1},
+                                        {"label": "return", "value": -1},
                                     ],
                                     style={
                                         "margin-right": "10px",
@@ -2122,7 +2122,7 @@ def group_9(containment):
         Input("Q_room-id", "value"),
         Input("Q_room_type-id", "value"),
         Input("Q_FP-id", "value"),
-        Input("Q_FP_type-id", "value")
+        Input("Q_FP_type-id", "value"),
     ],
 )
 def update_graph(
